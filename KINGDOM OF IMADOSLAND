@@ -1,0 +1,133 @@
+<?php
+/* =============================
+   KINGDOM OF IMADOSLAND
+   MULTI-PAGE ROYAL WEBSITE
+   =============================
+   FILES INCLUDED IN THIS SINGLE DOCUMENT:
+   --- index.php
+   --- about.php
+   --- government.php
+   --- laws.php
+   --- contact.php
+
+   HOW TO USE:
+   1) Create these 5 files in your host or Render:
+      index.php, about.php, government.php, laws.php, contact.php
+   2) Copy each section into its matching file.
+*/
+?>
+
+<!-- ================= index.php ================= -->
+<?php if(basename(__FILE__)==='index.php'): session_start(); ?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kingdom of Imadosland</title>
+<style>
+body{margin:0;font-family:Arial;background:#0b1324;color:#fff}
+header,footer{background:#071530;padding:20px;border-bottom:3px solid gold;text-align:center}
+nav a{color:gold;margin:0 10px;text-decoration:none;font-weight:bold}
+section{padding:40px;max-width:1100px;margin:auto}
+.hero{background:#121c36;padding:40px;border-radius:20px;text-align:center}
+.card{background:#121c36;padding:25px;border-radius:15px;margin:20px 0}
+.crest{font-size:22px;font-weight:bold;color:gold}
+.flag{margin:20px auto;width:300px;height:180px;border:3px solid gold}
+.flag div{height:33.33%}
+.flag .b{background:#002395}
+.flag .w{background:#fff}
+.flag .r{background:#ed2939}
+</style>
+</head>
+<body>
+<header>
+  <div class="crest">👑 Kingdom of Imadosland</div>
+  <p>Libertas • Unitas • Imperium</p>
+  <nav>
+    <a href="index.php">Home</a>
+    <a href="about.php">About</a>
+    <a href="government.php">Government</a>
+    <a href="laws.php">Laws</a>
+    <a href="contact.php">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Welcome to the Kingdom of Imadosland</h1>
+  <p>Official Digital Sovereign Monarchy</p>
+
+  <h3>National Flag</h3>
+  <div class="flag">
+    <div class="b"></div>
+    <div class="w"></div>
+    <div class="r"></div>
+  </div>
+
+  <h3>Royal Coat of Arms (Text Crest)</h3>
+  <div class="card">
+    👑 Shield of Imadosland<br>
+    Crown of Sovereignty<br>
+    Golden Lion of Authority<br>
+    Motto: <b>Libertas • Unitas • Imperium</b>
+  </div>
+</section>
+
+<footer>
+  © 2026 Kingdom of Imadosland — Royal Digital Sovereign State
+</footer>
+</body>
+</html>
+<?php endif; ?>
+
+<!-- ================= about.php ================= -->
+<?php if(basename(__FILE__)==='about.php'): ?>
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>About Imadosland</title></head><body>
+<h1>About the Kingdom of Imadosland</h1>
+<p>The Kingdom of Imadosland is a sovereign digital monarchy founded by His Majesty King Imad.
+It is based on liberty, unity, and royal constitutional authority.</p>
+<p>Virtual Capital: Imados Prime</p>
+<a href="index.php">Back to Home</a>
+</body></html>
+<?php endif; ?>
+
+<!-- ================= government.php ================= -->
+<?php if(basename(__FILE__)==='government.php'): ?>
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Government</title></head><body>
+<h1>Royal Government</h1>
+<ul>
+<li>👑 The King (Head of State)</li>
+<li>🏛 Royal Council</li>
+<li>⚖ Ministry of Justice</li>
+<li>🌍 Royal Digital Foreign Office</li>
+<li>💰 Ministry of Digital Economy</li>
+</ul>
+<a href="index.php">Back to Home</a>
+</body></html>
+<?php endif; ?>
+
+<!-- ================= laws.php ================= -->
+<?php if(basename(__FILE__)==='laws.php'): ?>
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Royal Laws</title></head><body>
+<h1>Fundamental Laws of Imadosland</h1>
+<ol>
+<li>Respect for the Sovereign Crown</li>
+<li>Digital Citizenship Rights</li>
+<li>Freedom under Royal Authority</li>
+<li>Protection of Digital Territory</li>
+<li>Loyalty to the Kingdom</li>
+</ol>
+<a href="index.php">Back to Home</a>
+</body></html>
+<?php endif; ?>
+
+<!-- ================= contact.php ================= -->
+<?php if(basename(__FILE__)==='contact.php'): ?>
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Contact</title></head><body>
+<h1>Official Contact</h1>
+<p>Royal Digital Headquarters</p>
+<p>Virtual Capital City — Imados Prime</p>
+<p>Email: contact@imadosland.org</p>
+<p>Royal Digital Foreign Office</p>
+<a href="index.php">Back to Home</a>
+</body></html>
+<?php endif; ?>
